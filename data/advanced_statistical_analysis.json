@@ -1,0 +1,140 @@
+{
+  "statistical_tests": {
+    "bedrooms": {
+      "pearson_correlation": 0.6383363959944076,
+      "pearson_p_value": 0.0,
+      "spearman_correlation": 0.6783503009223434,
+      "spearman_p_value": 0.0,
+      "is_significant": "True"
+    },
+    "bathrooms": {
+      "pearson_correlation": 0.7694744080238538,
+      "pearson_p_value": 0.0,
+      "spearman_correlation": 0.7224334470692617,
+      "spearman_p_value": 0.0,
+      "is_significant": "True"
+    },
+    "size_sqft": {
+      "pearson_correlation": 0.8579536612266562,
+      "pearson_p_value": 0.0,
+      "spearman_correlation": 0.8370851850454424,
+      "spearman_p_value": 0.0,
+      "is_significant": "True"
+    },
+    "min_to_subway": {
+      "pearson_correlation": 0.03516406710980712,
+      "pearson_p_value": 0.036456367325361484,
+      "spearman_correlation": -0.08306092722692054,
+      "spearman_p_value": 7.495727410504176e-07,
+      "is_significant": "True"
+    },
+    "floor": {
+      "pearson_correlation": 0.21586715877208854,
+      "pearson_p_value": 1.3808030781576633e-38,
+      "spearman_correlation": 0.30274091178094514,
+      "spearman_p_value": 6.52216603239048e-76,
+      "is_significant": "True"
+    },
+    "building_age_yrs": {
+      "pearson_correlation": -0.12889488750787506,
+      "pearson_p_value": 1.3895984012075602e-14,
+      "spearman_correlation": -0.2540256814581555,
+      "spearman_p_value": 3.0764577135018016e-53,
+      "is_significant": "True"
+    },
+    "no_fee": {
+      "pearson_correlation": -0.10149729838002308,
+      "pearson_p_value": 1.4348306656834121e-09,
+      "spearman_correlation": -0.007519461725704774,
+      "spearman_p_value": 0.6547470675467171,
+      "is_significant": "True"
+    },
+    "has_roofdeck": {
+      "pearson_correlation": 0.03516530501095586,
+      "pearson_p_value": 0.036449773664344244,
+      "spearman_correlation": 0.03309363150991652,
+      "spearman_p_value": 0.04900282200368741,
+      "is_significant": "True"
+    },
+    "has_washer_dryer": {
+      "pearson_correlation": 0.0538731756563341,
+      "pearson_p_value": 0.0013455464236857193,
+      "spearman_correlation": 0.06335970261670959,
+      "spearman_p_value": 0.0001621423608253939,
+      "is_significant": "True"
+    },
+    "has_doorman": {
+      "pearson_correlation": 0.03130204959623798,
+      "pearson_p_value": 0.06261133344930815,
+      "spearman_correlation": 0.04275022294355029,
+      "spearman_p_value": 0.010976266880841395,
+      "is_significant": "False"
+    },
+    "has_elevator": {
+      "pearson_correlation": 0.05185969881375724,
+      "pearson_p_value": 0.0020280465392722613,
+      "spearman_correlation": 0.054556462413059566,
+      "spearman_p_value": 0.0011670710440680441,
+      "is_significant": "True"
+    },
+    "has_dishwasher": {
+      "pearson_correlation": 0.052241260006322246,
+      "pearson_p_value": 0.0018782902818904944,
+      "spearman_correlation": 0.06212362860557961,
+      "spearman_p_value": 0.0002173307647191459,
+      "is_significant": "True"
+    },
+    "has_patio": {
+      "pearson_correlation": 0.02930242538808326,
+      "pearson_p_value": 0.0813432367472071,
+      "spearman_correlation": 0.03286363799106308,
+      "spearman_p_value": 0.050597403099220915,
+      "is_significant": "False"
+    },
+    "has_gym": {
+      "pearson_correlation": 0.040608630889125,
+      "pearson_p_value": 0.015695076870906804,
+      "spearman_correlation": 0.03469593491971608,
+      "spearman_p_value": 0.03902379744298485,
+      "is_significant": "True"
+    }
+  },
+  "feature_engineering": [
+    {
+      "feature": "price_per_sqft",
+      "correlation_with_rent": 0.47364314693050713,
+      "mean": 5.453680539311268,
+      "std": 1.4010950473581347
+    },
+    {
+      "feature": "total_rooms",
+      "correlation_with_rent": 0.7389499175584856,
+      "mean": 2.718705849109918
+    }
+  ],
+  "multicollinearity_check": {
+    "high_correlation_pairs": [
+      {
+        "feature1": "bedrooms",
+        "feature2": "bathrooms",
+        "correlation": 0.7208845891698937
+      },
+      {
+        "feature1": "bedrooms",
+        "feature2": "size_sqft",
+        "correlation": 0.7712629068009559
+      },
+      {
+        "feature1": "bathrooms",
+        "feature2": "size_sqft",
+        "correlation": 0.8036274009834002
+      },
+      {
+        "feature1": "has_doorman",
+        "feature2": "has_elevator",
+        "correlation": 0.7179291815217097
+      }
+    ],
+    "count": 4
+  }
+}

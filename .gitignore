@@ -31,8 +31,10 @@ ENV/
 *~
 .DS_Store
 *.pkl
-models/*.pkl
-!models/.gitkeep
+!models/best_model.pkl
+!models/decision_tree.pkl
+!models/random_forest.pkl
+!models/xgboost.pkl
 .ipynb_checkpoints/
 *.log
 .pytest_cache/
@@ -42,7 +44,6 @@ htmlcov/
 .hypothesis/
 *.ipynb_checkpoints
 data/raw/*.csv
-!data/raw/.gitkeep
 data/processed/*.csv
-!data/processed/.gitkeep
+!data/processed/cleaned_manhattan.csv
 

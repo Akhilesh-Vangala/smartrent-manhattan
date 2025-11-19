@@ -1,0 +1,98 @@
+{
+  "dataset_metadata": {
+    "total_records": 3539,
+    "total_features": 18,
+    "target_variable": "rent",
+    "problem_type": "regression",
+    "data_quality": "excellent"
+  },
+  "feature_categories": {
+    "identifiers": [
+      "rental_id"
+    ],
+    "target": [
+      "rent"
+    ],
+    "property_features": [
+      "bedrooms",
+      "bathrooms",
+      "size_sqft"
+    ],
+    "location_features": [
+      "neighborhood",
+      "borough",
+      "min_to_subway"
+    ],
+    "building_features": [
+      "floor",
+      "building_age_yrs"
+    ],
+    "amenity_features": [
+      "no_fee",
+      "has_roofdeck",
+      "has_washer_dryer",
+      "has_doorman",
+      "has_elevator",
+      "has_dishwasher",
+      "has_patio",
+      "has_gym"
+    ]
+  },
+  "data_characteristics": {
+    "missing_data": "none",
+    "duplicates": "none",
+    "outliers_present": true,
+    "skewed_features": [
+      "rent",
+      "bathrooms",
+      "size_sqft",
+      "min_to_subway",
+      "floor",
+      "has_roofdeck",
+      "has_washer_dryer",
+      "has_dishwasher",
+      "has_patio",
+      "has_gym"
+    ],
+    "categorical_features": [
+      "neighborhood",
+      "borough"
+    ],
+    "binary_features": [
+      "no_fee",
+      "has_roofdeck",
+      "has_washer_dryer",
+      "has_doorman",
+      "has_elevator",
+      "has_dishwasher",
+      "has_patio",
+      "has_gym"
+    ]
+  },
+  "preprocessing_requirements": {
+    "scaling_needed": true,
+    "encoding_needed": [
+      "neighborhood"
+    ],
+    "outlier_treatment": "consider_capping_or_removal",
+    "feature_engineering": [
+      "price_per_sqft",
+      "bed_bath_ratio",
+      "total_rooms"
+    ],
+    "drop_columns": [
+      "borough",
+      "rental_id"
+    ]
+  },
+  "modeling_considerations": {
+    "target_transformation": "log_transform_recommended",
+    "feature_selection": "all_features_useful",
+    "cross_validation": "recommended",
+    "evaluation_metrics": [
+      "RMSE",
+      "MAE",
+      "R2"
+    ]
+  }
+}

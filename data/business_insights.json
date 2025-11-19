@@ -1,0 +1,495 @@
+{
+  "neighborhood_rent_ranking": {
+    "Battery Park City": {
+      "rent_mean": 5968.96,
+      "rent_median": 5127.5,
+      "rent_std": 2939.31,
+      "rent_min": 2600.0,
+      "rent_max": 13800.0,
+      "count": 104,
+      "avg_size_sqft": 1018.54,
+      "avg_bedrooms": 1.5,
+      "avg_bathrooms": 1.58
+    },
+    "Central Harlem": {
+      "rent_mean": 2963.93,
+      "rent_median": 2500.0,
+      "rent_std": 1369.07,
+      "rent_min": 1425.0,
+      "rent_max": 7495.0,
+      "count": 82,
+      "avg_size_sqft": 915.15,
+      "avg_bedrooms": 1.62,
+      "avg_bathrooms": 1.32
+    },
+    "Central Park South": {
+      "rent_mean": 7506.96,
+      "rent_median": 6995.0,
+      "rent_std": 3590.8,
+      "rent_min": 2600.0,
+      "rent_max": 16000.0,
+      "count": 23,
+      "avg_size_sqft": 1173.3,
+      "avg_bedrooms": 1.54,
+      "avg_bathrooms": 1.65
+    },
+    "Chelsea": {
+      "rent_mean": 6193.48,
+      "rent_median": 5000.0,
+      "rent_std": 3040.2,
+      "rent_min": 2495.0,
+      "rent_max": 16500.0,
+      "count": 182,
+      "avg_size_sqft": 968.91,
+      "avg_bedrooms": 1.25,
+      "avg_bathrooms": 1.41
+    },
+    "Chinatown": {
+      "rent_mean": 2955.62,
+      "rent_median": 2900.0,
+      "rent_std": 873.32,
+      "rent_min": 1795.0,
+      "rent_max": 4100.0,
+      "count": 8,
+      "avg_size_sqft": 635.38,
+      "avg_bedrooms": 1.12,
+      "avg_bathrooms": 1.0
+    },
+    "East Harlem": {
+      "rent_mean": 2502.0,
+      "rent_median": 2495.0,
+      "rent_std": 606.04,
+      "rent_min": 1500.0,
+      "rent_max": 4200.0,
+      "count": 41,
+      "avg_size_sqft": 768.51,
+      "avg_bedrooms": 1.52,
+      "avg_bathrooms": 1.07
+    },
+    "East Village": {
+      "rent_mean": 4304.36,
+      "rent_median": 3800.0,
+      "rent_std": 1952.14,
+      "rent_min": 1899.0,
+      "rent_max": 10750.0,
+      "count": 108,
+      "avg_size_sqft": 768.04,
+      "avg_bedrooms": 1.16,
+      "avg_bathrooms": 1.15
+    },
+    "Financial District": {
+      "rent_mean": 4263.93,
+      "rent_median": 3782.0,
+      "rent_std": 1847.86,
+      "rent_min": 2150.0,
+      "rent_max": 16750.0,
+      "count": 268,
+      "avg_size_sqft": 831.16,
+      "avg_bedrooms": 0.94,
+      "avg_bathrooms": 1.25
+    },
+    "Flatiron": {
+      "rent_mean": 6120.17,
+      "rent_median": 4995.0,
+      "rent_std": 3363.2,
+      "rent_min": 2095.0,
+      "rent_max": 20000.0,
+      "count": 132,
+      "avg_size_sqft": 915.56,
+      "avg_bedrooms": 1.19,
+      "avg_bathrooms": 1.37
+    },
+    "Gramercy Park": {
+      "rent_mean": 5065.13,
+      "rent_median": 4000.0,
+      "rent_std": 3202.19,
+      "rent_min": 1950.0,
+      "rent_max": 19950.0,
+      "count": 61,
+      "avg_size_sqft": 828.21,
+      "avg_bedrooms": 1.21,
+      "avg_bathrooms": 1.3
+    },
+    "Greenwich Village": {
+      "rent_mean": 5471.42,
+      "rent_median": 4547.5,
+      "rent_std": 3246.15,
+      "rent_min": 2100.0,
+      "rent_max": 16000.0,
+      "count": 66,
+      "avg_size_sqft": 922.08,
+      "avg_bedrooms": 0.89,
+      "avg_bathrooms": 1.2
+    },
+    "Hamilton Heights": {
+      "rent_mean": 2284.0,
+      "rent_median": 2150.0,
+      "rent_std": 910.13,
+      "rent_min": 1450.0,
+      "rent_max": 5250.0,
+      "count": 16,
+      "avg_size_sqft": 783.19,
+      "avg_bedrooms": 1.38,
+      "avg_bathrooms": 1.12
+    },
+    "Inwood": {
+      "rent_mean": 2218.33,
+      "rent_median": 1885.0,
+      "rent_std": 722.55,
+      "rent_min": 1525.0,
+      "rent_max": 3700.0,
+      "count": 12,
+      "avg_size_sqft": 849.17,
+      "avg_bedrooms": 1.5,
+      "avg_bathrooms": 1.25
+    },
+    "Little Italy": {
+      "rent_mean": 2248.0,
+      "rent_median": 1699.0,
+      "rent_std": 954.36,
+      "rent_min": 1695.0,
+      "rent_max": 3350.0,
+      "count": 3,
+      "avg_size_sqft": 433.33,
+      "avg_bedrooms": 0.33,
+      "avg_bathrooms": 1.0
+    },
+    "Long Island City": {
+      "rent_mean": 2957.0,
+      "rent_median": 2881.5,
+      "rent_std": 309.43,
+      "rent_min": 2670.0,
+      "rent_max": 3395.0,
+      "count": 4,
+      "avg_size_sqft": 700.0,
+      "avg_bedrooms": 0.75,
+      "avg_bathrooms": 1.0
+    },
+    "Lower East Side": {
+      "rent_mean": 4785.17,
+      "rent_median": 3712.0,
+      "rent_std": 3585.36,
+      "rent_min": 1925.0,
+      "rent_max": 17000.0,
+      "count": 41,
+      "avg_size_sqft": 974.41,
+      "avg_bedrooms": 1.59,
+      "avg_bathrooms": 1.37
+    },
+    "Manhattanville": {
+      "rent_mean": 1395.0,
+      "rent_median": 1395.0,
+      "rent_std": NaN,
+      "rent_min": 1395.0,
+      "rent_max": 1395.0,
+      "count": 1,
+      "avg_size_sqft": 500.0,
+      "avg_bedrooms": 1.0,
+      "avg_bathrooms": 1.0
+    },
+    "Midtown": {
+      "rent_mean": 5930.67,
+      "rent_median": 5200.0,
+      "rent_std": 3310.53,
+      "rent_min": 2495.0,
+      "rent_max": 19000.0,
+      "count": 119,
+      "avg_size_sqft": 1049.13,
+      "avg_bedrooms": 1.27,
+      "avg_bathrooms": 1.36
+    },
+    "Midtown East": {
+      "rent_mean": 4703.7,
+      "rent_median": 3897.5,
+      "rent_std": 2751.96,
+      "rent_min": 1650.0,
+      "rent_max": 20000.0,
+      "count": 460,
+      "avg_size_sqft": 896.68,
+      "avg_bedrooms": 1.29,
+      "avg_bathrooms": 1.31
+    },
+    "Midtown South": {
+      "rent_mean": 4556.36,
+      "rent_median": 3800.0,
+      "rent_std": 2343.25,
+      "rent_min": 2350.0,
+      "rent_max": 18000.0,
+      "count": 85,
+      "avg_size_sqft": 822.06,
+      "avg_bedrooms": 1.08,
+      "avg_bathrooms": 1.24
+    },
+    "Midtown West": {
+      "rent_mean": 4126.0,
+      "rent_median": 3563.5,
+      "rent_std": 1896.32,
+      "rent_min": 1700.0,
+      "rent_max": 17900.0,
+      "count": 314,
+      "avg_size_sqft": 769.0,
+      "avg_bedrooms": 1.15,
+      "avg_bathrooms": 1.2
+    },
+    "Morningside Heights": {
+      "rent_mean": 3840.38,
+      "rent_median": 3950.0,
+      "rent_std": 897.84,
+      "rent_min": 2300.0,
+      "rent_max": 5200.0,
+      "count": 13,
+      "avg_size_sqft": 988.46,
+      "avg_bedrooms": 2.0,
+      "avg_bathrooms": 1.23
+    },
+    "Nolita": {
+      "rent_mean": 6687.22,
+      "rent_median": 6850.0,
+      "rent_std": 1970.33,
+      "rent_min": 3695.0,
+      "rent_max": 9600.0,
+      "count": 9,
+      "avg_size_sqft": 1122.33,
+      "avg_bedrooms": 2.0,
+      "avg_bathrooms": 1.56
+    },
+    "Roosevelt Island": {
+      "rent_mean": 3259.0,
+      "rent_median": 2950.0,
+      "rent_std": 1018.53,
+      "rent_min": 2300.0,
+      "rent_max": 4995.0,
+      "count": 5,
+      "avg_size_sqft": 797.8,
+      "avg_bedrooms": 1.1,
+      "avg_bathrooms": 1.2
+    },
+    "Soho": {
+      "rent_mean": 8467.66,
+      "rent_median": 7722.5,
+      "rent_std": 4016.95,
+      "rent_min": 2150.0,
+      "rent_max": 20000.0,
+      "count": 58,
+      "avg_size_sqft": 1396.84,
+      "avg_bedrooms": 1.76,
+      "avg_bathrooms": 1.6
+    },
+    "Stuyvesant Town/PCV": {
+      "rent_mean": 3847.0,
+      "rent_median": 3810.0,
+      "rent_std": 236.68,
+      "rent_min": 3631.0,
+      "rent_max": 4100.0,
+      "count": 3,
+      "avg_size_sqft": 786.33,
+      "avg_bedrooms": 1.0,
+      "avg_bathrooms": 1.0
+    },
+    "Tribeca": {
+      "rent_mean": 7975.26,
+      "rent_median": 7100.0,
+      "rent_std": 4115.38,
+      "rent_min": 2450.0,
+      "rent_max": 20000.0,
+      "count": 119,
+      "avg_size_sqft": 1324.18,
+      "avg_bedrooms": 1.55,
+      "avg_bathrooms": 1.67
+    },
+    "Upper East Side": {
+      "rent_mean": 5519.0,
+      "rent_median": 4072.5,
+      "rent_std": 3613.28,
+      "rent_min": 1700.0,
+      "rent_max": 20000.0,
+      "count": 500,
+      "avg_size_sqft": 1017.7,
+      "avg_bedrooms": 1.55,
+      "avg_bathrooms": 1.51
+    },
+    "Upper West Side": {
+      "rent_mean": 5354.05,
+      "rent_median": 4000.0,
+      "rent_std": 3361.83,
+      "rent_min": 1775.0,
+      "rent_max": 18900.0,
+      "count": 579,
+      "avg_size_sqft": 975.0,
+      "avg_bedrooms": 1.53,
+      "avg_bathrooms": 1.45
+    },
+    "Washington Heights": {
+      "rent_mean": 2539.33,
+      "rent_median": 2400.0,
+      "rent_std": 817.92,
+      "rent_min": 1300.0,
+      "rent_max": 5000.0,
+      "count": 54,
+      "avg_size_sqft": 941.24,
+      "avg_bedrooms": 1.96,
+      "avg_bathrooms": 1.28
+    },
+    "West Harlem": {
+      "rent_mean": 2406.0,
+      "rent_median": 2406.0,
+      "rent_std": 432.75,
+      "rent_min": 2100.0,
+      "rent_max": 2712.0,
+      "count": 2,
+      "avg_size_sqft": 800.0,
+      "avg_bedrooms": 2.5,
+      "avg_bathrooms": 1.0
+    },
+    "West Village": {
+      "rent_mean": 5970.97,
+      "rent_median": 4650.0,
+      "rent_std": 3494.99,
+      "rent_min": 2295.0,
+      "rent_max": 19950.0,
+      "count": 67,
+      "avg_size_sqft": 854.51,
+      "avg_bedrooms": 1.18,
+      "avg_bathrooms": 1.25
+    }
+  },
+  "amenity_price_impact": {
+    "no_fee": {
+      "avg_rent_with": 4748.685574229692,
+      "avg_rent_without": 5402.930838465182,
+      "price_impact": -654.2452642354901,
+      "impact_pct": -12.109080863625167
+    },
+    "has_roofdeck": {
+      "avg_rent_with": 5398.744525547445,
+      "avg_rent_without": 5091.340020060181,
+      "price_impact": 307.40450548726403,
+      "impact_pct": 6.0377917066248195
+    },
+    "has_washer_dryer": {
+      "avg_rent_with": 5528.989417989418,
+      "avg_rent_without": 5064.526581426649,
+      "price_impact": 464.46283656276955,
+      "impact_pct": 9.17090332324671
+    },
+    "has_doorman": {
+      "avg_rent_with": 5297.223115577889,
+      "avg_rent_without": 5077.033411949686,
+      "price_impact": 220.18970362820346,
+      "impact_pct": 4.336975665945954
+    },
+    "has_elevator": {
+      "avg_rent_with": 5392.642377756471,
+      "avg_rent_without": 5032.926282051282,
+      "price_impact": 359.7160957051892,
+      "impact_pct": 7.147255404634674
+    },
+    "has_dishwasher": {
+      "avg_rent_with": 5484.952815829528,
+      "avg_rent_without": 5060.06106870229,
+      "price_impact": 424.891747127238,
+      "impact_pct": 8.396968759039233
+    },
+    "has_patio": {
+      "avg_rent_with": 5522.676923076923,
+      "avg_rent_without": 5116.563397129186,
+      "price_impact": 406.1135259477369,
+      "impact_pct": 7.9372323652942525
+    },
+    "has_gym": {
+      "avg_rent_with": 5417.859450726979,
+      "avg_rent_without": 5079.813356164384,
+      "price_impact": 338.0460945625955,
+      "impact_pct": 6.654695179939527
+    }
+  },
+  "bedroom_rent_analysis": {
+    "0.0": {
+      "avg_rent": 2910.6573208722743,
+      "median_rent": 2830.0,
+      "count": 642,
+      "avg_size": 520.3816199376947
+    },
+    "0.5": {
+      "avg_rent": 2688.75,
+      "median_rent": 2610.0,
+      "count": 24,
+      "avg_size": 544.7083333333334
+    },
+    "1.0": {
+      "avg_rent": 3993.4769647696476,
+      "median_rent": 3800.0,
+      "count": 1476,
+      "avg_size": 748.8224932249323
+    },
+    "1.5": {
+      "avg_rent": 4411.25,
+      "median_rent": 4197.5,
+      "count": 8,
+      "avg_size": 934.5
+    },
+    "2.0": {
+      "avg_rent": 6552.803921568628,
+      "median_rent": 6000.0,
+      "count": 969,
+      "avg_size": 1180.7131062951496
+    },
+    "2.5": {
+      "avg_rent": 8837.75,
+      "median_rent": 8392.5,
+      "count": 8,
+      "avg_size": 1511.75
+    },
+    "3.0": {
+      "avg_rent": 9281.758409785933,
+      "median_rent": 8500.0,
+      "count": 327,
+      "avg_size": 1640.9051987767584
+    },
+    "3.5": {
+      "avg_rent": 9791.666666666666,
+      "median_rent": 11225.0,
+      "count": 3,
+      "avg_size": 2366.6666666666665
+    },
+    "4.0": {
+      "avg_rent": 10133.933333333332,
+      "median_rent": 9700.0,
+      "count": 75,
+      "avg_size": 1967.76
+    },
+    "5.0": {
+      "avg_rent": 11278.857142857143,
+      "median_rent": 11500.0,
+      "count": 7,
+      "avg_size": 2619.4285714285716
+    }
+  },
+  "size_category_rent": {
+    "Tiny": {
+      "mean_rent": 2622.948148148148,
+      "median_rent": 2600.0,
+      "count": 405
+    },
+    "Small": {
+      "mean_rent": 3501.3724948168624,
+      "median_rent": 3465.0,
+      "count": 1447
+    },
+    "Medium": {
+      "mean_rent": 5090.510683760684,
+      "median_rent": 4995.0,
+      "count": 936
+    },
+    "Large": {
+      "mean_rent": 8838.658022690437,
+      "median_rent": 8250.0,
+      "count": 617
+    },
+    "Very Large": {
+      "mean_rent": 13729.55223880597,
+      "median_rent": 14000.0,
+      "count": 134
+    }
+  }
+}

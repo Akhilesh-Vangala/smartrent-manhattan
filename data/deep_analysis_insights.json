@@ -1,0 +1,611 @@
+{
+  "rent_distribution": {
+    "shapiro_w": [
+      0.7911515269457199,
+      1.8120107498138186e-55
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 2200.0,
+      "p25": 3150.0,
+      "p50": 4000.0,
+      "p75": 6000.0,
+      "p95": 12000.0,
+      "p99": 17154.99999999997
+    }
+  },
+  "bedrooms_distribution": {
+    "shapiro_w": [
+      0.8856646115242454,
+      2.4815712714599613e-45
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 2.0,
+      "p95": 3.0,
+      "p99": 4.0
+    }
+  },
+  "bathrooms_distribution": {
+    "shapiro_w": [
+      0.6451217198482074,
+      2.908583103690753e-65
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 2.0,
+      "p95": 3.0,
+      "p99": 3.0
+    }
+  },
+  "size_sqft_distribution": {
+    "shapiro_w": [
+      0.8524888122009959,
+      1.726731047178148e-49
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 438.9,
+      "p25": 613.0,
+      "p50": 800.0,
+      "p75": 1141.0,
+      "p95": 1940.0,
+      "p99": 2610.539999999998
+    }
+  },
+  "min_to_subway_distribution": {
+    "shapiro_w": [
+      0.5513557514290109,
+      7.431169791438708e-70
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 1.0,
+      "p25": 2.0,
+      "p50": 4.0,
+      "p75": 6.0,
+      "p95": 12.0,
+      "p99": 43.0
+    }
+  },
+  "floor_distribution": {
+    "shapiro_w": [
+      0.8223400448451293,
+      1.2110492328224888e-52
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 2.0,
+      "p25": 4.0,
+      "p50": 8.0,
+      "p75": 17.0,
+      "p95": 35.0,
+      "p99": 47.61999999999989
+    }
+  },
+  "building_age_yrs_distribution": {
+    "shapiro_w": [
+      0.895943567278046,
+      7.658868345874624e-44
+    ],
+    "normality_test": "normal",
+    "percentiles": {
+      "p5": 5.0,
+      "p25": 15.0,
+      "p50": 39.0,
+      "p75": 90.0,
+      "p95": 116.0,
+      "p99": 120.0
+    }
+  },
+  "no_fee_distribution": {
+    "shapiro_w": [
+      0.6229413050711865,
+      1.956450881778426e-66
+    ],
+    "normality_test": "normal",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_roofdeck_distribution": {
+    "shapiro_w": [
+      0.4332722758683809,
+      1.3640121938996542e-74
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_washer_dryer_distribution": {
+    "shapiro_w": [
+      0.4407400713522318,
+      2.558373574815681e-74
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_doorman_distribution": {
+    "shapiro_w": [
+      0.562893643772481,
+      2.450885933471926e-69
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_elevator_distribution": {
+    "shapiro_w": [
+      0.5722204859491316,
+      6.559546861187035e-69
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_dishwasher_distribution": {
+    "shapiro_w": [
+      0.47331089291101835,
+      4.336678949695214e-73
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_patio_distribution": {
+    "shapiro_w": [
+      0.23831395700264846,
+      8.194246579969774e-81
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "has_gym_distribution": {
+    "shapiro_w": [
+      0.4600983630506531,
+      1.3516899768414184e-73
+    ],
+    "normality_test": "skewed",
+    "percentiles": {
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "p99": 1.0
+    }
+  },
+  "feature_correlations": {
+    "rent": 1.0,
+    "size_sqft": 0.8579536612266574,
+    "bathrooms": 0.7694744080238433,
+    "bedrooms": 0.6383363959944315,
+    "floor": 0.21586715877209037,
+    "has_washer_dryer": 0.05387317565633502,
+    "has_dishwasher": 0.05224126000632346,
+    "has_elevator": 0.05185969881375841,
+    "has_gym": 0.04060863088912616,
+    "has_roofdeck": 0.03516530501095548,
+    "min_to_subway": 0.03516406710980699,
+    "has_doorman": 0.03130204959623806,
+    "has_patio": 0.02930242538808417,
+    "no_fee": -0.10149729838002118,
+    "building_age_yrs": -0.1288948875078747
+  },
+  "bedrooms_rent_correlation": 0.6383363959944298,
+  "bathrooms_rent_correlation": 0.7694744080238426,
+  "size_sqft_rent_correlation": 0.8579536612266582,
+  "min_to_subway_rent_correlation": 0.03516406710980702,
+  "floor_rent_correlation": 0.21586715877209056,
+  "building_age_yrs_rent_correlation": -0.12889488750787503,
+  "no_fee_rent_correlation": -0.10149729838002096,
+  "has_roofdeck_rent_correlation": 0.035165305010955494,
+  "has_washer_dryer_rent_correlation": 0.053873175656334864,
+  "has_doorman_rent_correlation": 0.03130204959623802,
+  "has_elevator_rent_correlation": 0.05185969881375814,
+  "has_dishwasher_rent_correlation": 0.05224126000632326,
+  "has_patio_rent_correlation": 0.029302425388084082,
+  "has_gym_rent_correlation": 0.04060863088912617,
+  "neighborhood_rent_stats": {
+    "Battery Park City": {
+      "mean": 5968.961538461538,
+      "median": 5127.5,
+      "std": 2939.3101559177285,
+      "count": 104
+    },
+    "Central Harlem": {
+      "mean": 2963.9268292682927,
+      "median": 2500.0,
+      "std": 1369.0652554178312,
+      "count": 82
+    },
+    "Central Park South": {
+      "mean": 7506.95652173913,
+      "median": 6995.0,
+      "std": 3590.8000308649994,
+      "count": 23
+    },
+    "Chelsea": {
+      "mean": 6193.483516483517,
+      "median": 5000.0,
+      "std": 3040.201615743219,
+      "count": 182
+    },
+    "Chinatown": {
+      "mean": 2955.625,
+      "median": 2900.0,
+      "std": 873.3164927038601,
+      "count": 8
+    },
+    "East Harlem": {
+      "mean": 2502.0,
+      "median": 2495.0,
+      "std": 606.0386951342299,
+      "count": 41
+    },
+    "East Village": {
+      "mean": 4304.361111111111,
+      "median": 3800.0,
+      "std": 1952.1405622859536,
+      "count": 108
+    },
+    "Financial District": {
+      "mean": 4263.925373134329,
+      "median": 3782.0,
+      "std": 1847.8628008430608,
+      "count": 268
+    },
+    "Flatiron": {
+      "mean": 6120.174242424242,
+      "median": 4995.0,
+      "std": 3363.1965971508716,
+      "count": 132
+    },
+    "Gramercy Park": {
+      "mean": 5065.131147540984,
+      "median": 4000.0,
+      "std": 3202.1875776590077,
+      "count": 61
+    },
+    "Greenwich Village": {
+      "mean": 5471.424242424242,
+      "median": 4547.5,
+      "std": 3246.150695874476,
+      "count": 66
+    },
+    "Hamilton Heights": {
+      "mean": 2284.0,
+      "median": 2150.0,
+      "std": 910.1292948440532,
+      "count": 16
+    },
+    "Inwood": {
+      "mean": 2218.3333333333335,
+      "median": 1885.0,
+      "std": 722.5501974802775,
+      "count": 12
+    },
+    "Little Italy": {
+      "mean": 2248.0,
+      "median": 1699.0,
+      "std": 954.3620906134107,
+      "count": 3
+    },
+    "Long Island City": {
+      "mean": 2957.0,
+      "median": 2881.5,
+      "std": 309.4285054742048,
+      "count": 4
+    },
+    "Lower East Side": {
+      "mean": 4785.170731707317,
+      "median": 3712.0,
+      "std": 3585.3555465423447,
+      "count": 41
+    },
+    "Manhattanville": {
+      "mean": 1395.0,
+      "median": 1395.0,
+      "std": NaN,
+      "count": 1
+    },
+    "Midtown": {
+      "mean": 5930.672268907563,
+      "median": 5200.0,
+      "std": 3310.5293373382165,
+      "count": 119
+    },
+    "Midtown East": {
+      "mean": 4703.697826086956,
+      "median": 3897.5,
+      "std": 2751.9575884491233,
+      "count": 460
+    },
+    "Midtown South": {
+      "mean": 4556.364705882353,
+      "median": 3800.0,
+      "std": 2343.252414340146,
+      "count": 85
+    },
+    "Midtown West": {
+      "mean": 4125.996815286624,
+      "median": 3563.5,
+      "std": 1896.3186018194415,
+      "count": 314
+    },
+    "Morningside Heights": {
+      "mean": 3840.3846153846152,
+      "median": 3950.0,
+      "std": 897.8410715397184,
+      "count": 13
+    },
+    "Nolita": {
+      "mean": 6687.222222222223,
+      "median": 6850.0,
+      "std": 1970.3300978375285,
+      "count": 9
+    },
+    "Roosevelt Island": {
+      "mean": 3259.0,
+      "median": 2950.0,
+      "std": 1018.5308046397026,
+      "count": 5
+    },
+    "Soho": {
+      "mean": 8467.655172413793,
+      "median": 7722.5,
+      "std": 4016.9480801981827,
+      "count": 58
+    },
+    "Stuyvesant Town/PCV": {
+      "mean": 3847.0,
+      "median": 3810.0,
+      "std": 236.6791076542245,
+      "count": 3
+    },
+    "Tribeca": {
+      "mean": 7975.26050420168,
+      "median": 7100.0,
+      "std": 4115.375719532589,
+      "count": 119
+    },
+    "Upper East Side": {
+      "mean": 5519.004,
+      "median": 4072.5,
+      "std": 3613.2762488474314,
+      "count": 500
+    },
+    "Upper West Side": {
+      "mean": 5354.050086355785,
+      "median": 4000.0,
+      "std": 3361.8298206723307,
+      "count": 579
+    },
+    "Washington Heights": {
+      "mean": 2539.3333333333335,
+      "median": 2400.0,
+      "std": 817.9228177823729,
+      "count": 54
+    },
+    "West Harlem": {
+      "mean": 2406.0,
+      "median": 2406.0,
+      "std": 432.7493500861671,
+      "count": 2
+    },
+    "West Village": {
+      "mean": 5970.9701492537315,
+      "median": 4650.0,
+      "std": 3494.986695124236,
+      "count": 67
+    }
+  },
+  "feature_interactions": {
+    "price_per_sqft_rent": 0.47364314693050713,
+    "bed_bath_ratio_rent": 0.1638218853054843,
+    "total_rooms_rent": 0.7389499175584856
+  },
+  "outlier_analysis": {
+    "bedrooms": {
+      "count": 82,
+      "percentage": 2.317038711500424,
+      "lower_bound": -0.5,
+      "upper_bound": 3.5
+    },
+    "bathrooms": {
+      "count": 15,
+      "percentage": 0.42384854478666295,
+      "lower_bound": -0.5,
+      "upper_bound": 3.5
+    },
+    "size_sqft": {
+      "count": 180,
+      "percentage": 5.086182537439955,
+      "lower_bound": -179.0,
+      "upper_bound": 1933.0
+    },
+    "min_to_subway": {
+      "count": 120,
+      "percentage": 3.3907883582933036,
+      "lower_bound": -4.0,
+      "upper_bound": 12.0
+    },
+    "floor": {
+      "count": 147,
+      "percentage": 4.1537157389092965,
+      "lower_bound": -15.5,
+      "upper_bound": 36.5
+    },
+    "building_age_yrs": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": -97.5,
+      "upper_bound": 202.5
+    },
+    "no_fee": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "has_roofdeck": {
+      "count": 548,
+      "percentage": 15.484600169539418,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0
+    },
+    "has_washer_dryer": {
+      "count": 567,
+      "percentage": 16.021474992935858,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0
+    },
+    "has_doorman": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "has_elevator": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": -1.5,
+      "upper_bound": 2.5
+    },
+    "has_dishwasher": {
+      "count": 657,
+      "percentage": 18.564566261655834,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0
+    },
+    "has_patio": {
+      "count": 195,
+      "percentage": 5.510031082226618,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0
+    },
+    "has_gym": {
+      "count": 619,
+      "percentage": 17.490816614862954,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0
+    },
+    "price_per_sqft": {
+      "count": 93,
+      "percentage": 2.62786097767731,
+      "lower_bound": 2.1629820936639104,
+      "upper_bound": 8.617252066115704
+    },
+    "bed_bath_ratio": {
+      "count": 1326,
+      "percentage": 37.468211359141,
+      "lower_bound": 0.8441558441558441,
+      "upper_bound": 1.0173160173160172
+    },
+    "total_rooms": {
+      "count": 19,
+      "percentage": 0.5368748233964397,
+      "lower_bound": -1.0,
+      "upper_bound": 7.0
+    }
+  },
+  "target_analysis": {
+    "distribution_type": "right_skewed",
+    "log_transform_recommended": "True",
+    "price_segments": {
+      "budget": 759,
+      "mid_range": 1885,
+      "premium": 594,
+      "luxury": 301
+    }
+  },
+  "feature_importance": {
+    "size_sqft": 0.7603443688142628,
+    "price_per_sqft": 0.23495171316580707,
+    "neighborhood_encoded": 0.0009347348917313137,
+    "building_age_yrs": 0.0008643998508909341,
+    "floor": 0.0006191692164355633,
+    "min_to_subway": 0.0004731625667776695,
+    "total_rooms": 0.0003495109986273184,
+    "no_fee": 0.0003257223437148361,
+    "bed_bath_ratio": 0.0002764285200725317,
+    "has_gym": 0.00015436597640529638,
+    "bathrooms": 0.0001346389659022193,
+    "bedrooms": 0.00012944568147096715,
+    "has_washer_dryer": 0.00011564579139104929,
+    "has_elevator": 8.913858277461874e-05,
+    "has_dishwasher": 8.509642530752764e-05,
+    "has_roofdeck": 5.8521676771322256e-05,
+    "has_doorman": 5.6274795085452775e-05,
+    "has_patio": 3.7661736571620405e-05
+  },
+  "data_quality": {
+    "completeness": {
+      "total_cells": 74319,
+      "missing_cells": "0",
+      "completeness_pct": 100.0
+    },
+    "consistency": {
+      "duplicate_rows": "0",
+      "inconsistent_types": [
+        "none"
+      ]
+    },
+    "validity": {
+      "rent_positive": "True",
+      "size_positive": "True",
+      "bedrooms_valid": "True",
+      "bathrooms_valid": "True",
+      "min_to_subway_valid": "True"
+    }
+  }
+}
